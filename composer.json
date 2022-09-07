@@ -1,0 +1,29 @@
+{
+  "name": "JBorn74/posts",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "JBorn",
+      "email": "info@php-developer.ru",
+        "homepage": 'https://github.com/JBorn74/graduate-work',
+    }
+  ],
+  "require": {
+      "php": "^8.0.2"
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JBorn74\\Posts\\Providers\\PostsServiceProvider"
+            ]
+
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "JBorn74\\Posts\\": "src"
+        }
+    }
+}
